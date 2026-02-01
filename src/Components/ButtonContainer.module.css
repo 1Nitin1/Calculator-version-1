@@ -1,0 +1,8 @@
+.butCon{
+   margin:5%;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   width:90%;
+   height:100%;
+}
