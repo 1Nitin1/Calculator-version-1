@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Container from './Components/Container';
 import Display from './Components/Display';
 import ButtonContainer from './Components/ButtonConatiner';
-import { Analytics } from "@vercel/analytics/next"
+
 function App() {
   let [disp,setnewdisp] = useState("");
   let buttons = ['C','1','2','+','3','4','-','5','6','*','7','8','/','9','0','=','.']
@@ -13,7 +13,7 @@ function App() {
   return (<Container>
     <Display text={disp} ></Display>
     <ButtonContainer list={buttons} disp={disp} setnewdisp={setnewdisp}></ButtonContainer>
-    <Analytics></Analytics>
+    
   </Container>);
 }
 
